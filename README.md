@@ -15,3 +15,6 @@ DRF, react 기반 게시판 구현 파이널 프로젝트 레파지토리
   - 토큰은 기본적으로 암호화 방식을 채택하여 사용
   - 각 토큰/세션에 대해 유효기간 설정을 통해 보안성 강화
   <img width="594" alt="토큰JWT" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/d20c7a0a-67db-4390-8460-bd19b0e8ac54">
+
+# related_name 에러
+  - 서로를 참조하는 관계, 즉 ForeignKey나 OneToOneField, ManyToManyField와 같은 관계에서 발생하는 에러

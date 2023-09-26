@@ -18,3 +18,4 @@ DRF, react 기반 게시판 구현 파이널 프로젝트 레파지토리
 
 # related_name 에러
   - 서로를 참조하는 관계, 즉 ForeignKey나 OneToOneField, ManyToManyField와 같은 관계에서 발생하는 에러
+  - 같은 모델을 참조하는 인스턴스가 있을 경우, 반드시 related_name=''을 지정해줘야 한다.

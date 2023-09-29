@@ -3,7 +3,7 @@
   - 백엔드 개발의 핵심이라 할 수 있는 항목별 C.R.U.D 구현 및 부가적 기능들을 구현하였습니다.
   - 유저 인증 관련하여, 기본적인 토큰 방식을 적용하여 authenticated 검증이 된 경우에만 기능수행이 가능하도록 구현하였습니다.(전체 게시글 보기/게시글 작성/게시슬 수정/댓글 보기/댓글 수정/좋아요 등) 
   - 모델 > 시리얼라이저 > 뷰 > url 플로우를 따른 개발 및 heroku를 활용한 배포까지 진행하고자 하였습니다.
-  - 배포 url: sensuous-myboard.herokuapp.com
+  - 배포 url: https://sensuous-myboard.herokuapp.com
 
 # 기술스택
   <table>

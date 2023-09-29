@@ -73,7 +73,7 @@
   <img width="590" alt="토큰JWT" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/d20c7a0a-67db-4390-8460-bd19b0e8ac54">
 
 # 진행 간 발생 에러 및 대응방안
-##  related_name 에러
+## 1. related_name 에러
   - 서로를 참조하는 관계, 즉 ForeignKey나 OneToOneField, ManyToManyField와 같은 관계에서 발생하는 에러
   - 같은 모델을 참조하는 인스턴스가 있을 경우, 반드시 related_name=''을 지정해줘야 한다. (writer, likes)
     <img width="612" alt="post 모델" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/38a933c6-13dd-4701-b332-542df3844955">
@@ -92,6 +92,12 @@
     posts = user.posts.all()
     ```
     이렇게 해주면 유저가 작성한 글들을 확인할 수가 있습니다.
+
+## 2. heroku 배포 시 발생 에러
+<img width="1022" alt="스크린샷 2023-09-29 오후 5 48 12" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/6dc9c079-226c-4b02-8ffc-3b805ce2b33b">
+
+## 대응방안
+  - 
 
 # 프로젝트 회고
   - 같은 작업을 serializer, view, 심지어 model에도 구현할 수 있다. 동일하게 동작하는데는 문제 없으나, 되도록 각 부분의 역할에 맞게 분리하는 것이 좋다.

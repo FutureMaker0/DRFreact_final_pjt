@@ -59,70 +59,26 @@
       - 게시글 볼 때 댓글도 함께 가져오기
 
 # 주요 폴더별 파일트리
-📦myboard
- ┣ 📂__pycache__
- ┃ ┣ 📜__init__.cpython-311.pyc
- ┃ ┣ 📜settings.cpython-311.pyc
- ┃ ┣ 📜urls.cpython-311.pyc
- ┃ ┗ 📜wsgi.cpython-311.pyc
- ┣ 📜.env
- ┣ 📜__init__.py
- ┣ 📜asgi.py
- ┣ 📜settings.py
- ┣ 📜urls.py
- ┗ 📜wsgi.py
- 
- 📦posts
- ┣ 📂__pycache__
- ┃ ┣ 📜__init__.cpython-311.pyc
- ┃ ┣ 📜admin.cpython-311.pyc
- ┃ ┣ 📜apps.cpython-311.pyc
- ┃ ┣ 📜models.cpython-311.pyc
- ┃ ┣ 📜permissions.cpython-311.pyc
- ┃ ┣ 📜serializers.cpython-311.pyc
- ┃ ┣ 📜urls.cpython-311.pyc
- ┃ ┗ 📜views.cpython-311.pyc
- ┣ 📂migrations
- ┃ ┣ 📂__pycache__
- ┃ ┃ ┣ 📜0001_initial.cpython-311.pyc
- ┃ ┃ ┣ 📜0002_initial.cpython-311.pyc
- ┃ ┃ ┣ 📜0002_post_profile.cpython-311.pyc
- ┃ ┃ ┣ 📜0003_alter_post_id_comment.cpython-311.pyc
- ┃ ┃ ┗ 📜__init__.cpython-311.pyc
- ┃ ┗ 📜__init__.py
- ┣ 📜__init__.py
- ┣ 📜admin.py
- ┣ 📜apps.py
- ┣ 📜models.py
- ┣ 📜permissions.py
- ┣ 📜serializers.py
- ┣ 📜tests.py
- ┣ 📜urls.py
- ┗ 📜views.py
-
- 📦users
- ┣ 📂__pycache__
- ┃ ┣ 📜__init__.cpython-311.pyc
- ┃ ┣ 📜admin.cpython-311.pyc
- ┃ ┣ 📜apps.cpython-311.pyc
- ┃ ┣ 📜models.cpython-311.pyc
- ┃ ┣ 📜serializers.cpython-311.pyc
- ┃ ┣ 📜urls.cpython-311.pyc
- ┃ ┗ 📜views.cpython-311.pyc
- ┣ 📂migrations
- ┃ ┣ 📂__pycache__
- ┃ ┃ ┣ 📜0001_initial.cpython-311.pyc
- ┃ ┃ ┗ 📜__init__.cpython-311.pyc
- ┃ ┗ 📜__init__.py
- ┣ 📜__init__.py
- ┣ 📜admin.py
- ┣ 📜apps.py
- ┣ 📜models.py
- ┣ 📜permissions.py
- ┣ 📜serializers.py
- ┣ 📜tests.py
- ┣ 📜urls.py
- ┗ 📜views.py
+<table>
+    <thead align="center">
+        <tr>
+            <th><span>myboard</span></th>
+            <th><span>posts</span></th>
+            <th><span>users</span></th>
+        </tr>
+    </thead>
+    <tbody>
+          <td align="center">
+              <img width="254" alt="스크린샷 2023-09-29 오후 6 05 40" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/4c5e3d13-1a0e-46dd-9101-e8f1f23a02ec">
+          </td>
+          <td align="center">
+              <img width="415" alt="스크린샷 2023-09-29 오후 6 05 54" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/737c764e-33fd-4a9d-87df-606d65569390">
+          </td>
+          <td align="center">
+              <img width="305" alt="스크린샷 2023-09-29 오후 6 06 05" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/ee5208f6-15e5-4a21-8105-aa4639dbef34">
+          </td>
+    </tbody>
+</table>
 
 # 유저 인증 관련 접근방법
 ## 세션 & 쿠키

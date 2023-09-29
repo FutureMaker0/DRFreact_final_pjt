@@ -98,8 +98,8 @@
 
 # 예외처리 커스텀
   <img width="957" alt="예외처리 커스텀" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/67fc0394-992a-439a-ad14-d9cbfdb4b1de">
-  - 예외처리 커스터마이징 예시 이미지
-  - exception_handler 변경을 통해 기존 단순 표기법에서 좀 더 디테일한 내용을 담아 클라이언트에 JSON 형태로 response 될 수 있도록 커스터마이징
+  - 예외처리 커스터마이징 예시 이미지 (insomnia.rest 사용 API 테스트)
+    - exception_handler 변경을 통해 기존 단순 표기법에서 좀 더 디테일한 내용을 담아 클라이언트에 JSON 형태로 response 될 수 있도록 커스터마이징
   
   - 기존
   ```python

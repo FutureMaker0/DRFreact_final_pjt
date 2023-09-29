@@ -58,6 +58,72 @@
       - 댓글 삭제하기
       - 게시글 볼 때 댓글도 함께 가져오기
 
+# 주요 폴더별 파일트리
+📦myboard
+ ┣ 📂__pycache__
+ ┃ ┣ 📜__init__.cpython-311.pyc
+ ┃ ┣ 📜settings.cpython-311.pyc
+ ┃ ┣ 📜urls.cpython-311.pyc
+ ┃ ┗ 📜wsgi.cpython-311.pyc
+ ┣ 📜.env
+ ┣ 📜__init__.py
+ ┣ 📜asgi.py
+ ┣ 📜settings.py
+ ┣ 📜urls.py
+ ┗ 📜wsgi.py
+ 
+ 📦posts
+ ┣ 📂__pycache__
+ ┃ ┣ 📜__init__.cpython-311.pyc
+ ┃ ┣ 📜admin.cpython-311.pyc
+ ┃ ┣ 📜apps.cpython-311.pyc
+ ┃ ┣ 📜models.cpython-311.pyc
+ ┃ ┣ 📜permissions.cpython-311.pyc
+ ┃ ┣ 📜serializers.cpython-311.pyc
+ ┃ ┣ 📜urls.cpython-311.pyc
+ ┃ ┗ 📜views.cpython-311.pyc
+ ┣ 📂migrations
+ ┃ ┣ 📂__pycache__
+ ┃ ┃ ┣ 📜0001_initial.cpython-311.pyc
+ ┃ ┃ ┣ 📜0002_initial.cpython-311.pyc
+ ┃ ┃ ┣ 📜0002_post_profile.cpython-311.pyc
+ ┃ ┃ ┣ 📜0003_alter_post_id_comment.cpython-311.pyc
+ ┃ ┃ ┗ 📜__init__.cpython-311.pyc
+ ┃ ┗ 📜__init__.py
+ ┣ 📜__init__.py
+ ┣ 📜admin.py
+ ┣ 📜apps.py
+ ┣ 📜models.py
+ ┣ 📜permissions.py
+ ┣ 📜serializers.py
+ ┣ 📜tests.py
+ ┣ 📜urls.py
+ ┗ 📜views.py
+
+ 📦users
+ ┣ 📂__pycache__
+ ┃ ┣ 📜__init__.cpython-311.pyc
+ ┃ ┣ 📜admin.cpython-311.pyc
+ ┃ ┣ 📜apps.cpython-311.pyc
+ ┃ ┣ 📜models.cpython-311.pyc
+ ┃ ┣ 📜serializers.cpython-311.pyc
+ ┃ ┣ 📜urls.cpython-311.pyc
+ ┃ ┗ 📜views.cpython-311.pyc
+ ┣ 📂migrations
+ ┃ ┣ 📂__pycache__
+ ┃ ┃ ┣ 📜0001_initial.cpython-311.pyc
+ ┃ ┃ ┗ 📜__init__.cpython-311.pyc
+ ┃ ┗ 📜__init__.py
+ ┣ 📜__init__.py
+ ┣ 📜admin.py
+ ┣ 📜apps.py
+ ┣ 📜models.py
+ ┣ 📜permissions.py
+ ┣ 📜serializers.py
+ ┣ 📜tests.py
+ ┣ 📜urls.py
+ ┗ 📜views.py
+
 # 유저 인증 관련 접근방법
 ## 세션 & 쿠키
   - 세션: 서버 쪽에서 저장하는 정보

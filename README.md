@@ -4,7 +4,42 @@
   - 모델 > 시리얼라이저 > 뷰 > url 플로우를 따른 개발 및 heroku를 활용한 배포까지 진행하고자 하였습니다.
 
 # 기술스택
-
+  <table>
+    <thead align="center">
+        <tr>
+            <th><span>BE</span></th>
+            <th><span>FE</span></th>
+            <th><span>DB</span></th>
+            <th><span>DEPLOYMENT</span></th>
+            <th><span>MANAGEMENT</span></th>
+        </tr>
+    </thead>
+    <tbody>
+          <td align="center">
+              <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+              <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+          </td>
+          <td align="center">
+              <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+              <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+              <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+          </td>
+          <td align="center">
+              <img src="https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" width="250" height="30">
+          </td>
+          <td align="center">
+              <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
+              <img src="https://img.shields.io/badge/amazon s3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
+              <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
+              <img src="https://img.shields.io/badge/gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white">
+          </td>
+          <td align="center">
+            <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+            <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+            <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+          </td>
+    </tbody>
+</table>
 
 # 기능구현(App 별)
   - 회원 관련 기능(User)

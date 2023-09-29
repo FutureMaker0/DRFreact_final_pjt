@@ -1,3 +1,5 @@
+# 별도 브랜치 'dev'에 구현 코드가 업로드되어 있습니다.
+
 # DRF 기반 게시판 구현 프로젝트 레파지토리
   - Django REST Framework를 기반으로, 게시판 백엔드 API 개발을 진행한 프로젝트입니다.
   - 백엔드 개발의 핵심이라 할 수 있는 항목별 C.R.U.D 구현 및 부가적 기능들을 구현하였습니다.
@@ -99,7 +101,8 @@
 # 예외처리 커스텀
   <img width="957" alt="예외처리 커스텀" src="https://github.com/FutureMaker0/DRFreact_final_pjt/assets/120623320/67fc0394-992a-439a-ad14-d9cbfdb4b1de">
   - 예외처리 커스터마이징 예시 이미지 (insomnia.rest 사용 API 테스트)
-    - exception_handler 변경을 통해 기존 단순 표기법에서 좀 더 디테일한 내용을 담아 클라이언트에 JSON 형태로 response 될 수 있도록 커스터마이징
+  
+  - exception_handler 변경을 통해 기존 단순 표기법에서 좀 더 디테일한 내용을 담아 클라이언트에 JSON 형태로 response 될 수 있도록 커스터마이징
   
   - 기존
   ```python
